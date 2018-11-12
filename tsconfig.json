@@ -19,16 +19,16 @@
     ],
     "paths": {
       "@manx": [
-        "projects/manx/src/lib"
+        "dist/manx"
       ],
       "@manx/*": [
-        "projects/manx/src/lib/*"
+        "dist/manx/*"
       ],
       "@manx-services": [
-        "projects/manx-services/src/lib"
+        "dist/manx-services"
       ],
       "@manx-services/*": [
-        "projects/manx-services/src/lib/*"
+        "dist/manx-services/*"
       ]
       // "@manx": [
       //   "dist/manx"
