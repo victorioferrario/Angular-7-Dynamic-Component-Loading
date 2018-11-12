@@ -1,0 +1,8 @@
+<nav class="k-scollview-elements">
+  <a href="javascript:void(0);" (click)="this.scrollContext.prev()" *ngIf="(this.scrollContext.hasPrev | async)" class="k-scrollview-prev"><span>
+      <mat-icon class="fadeInRight animated-k-scrollview-button k-mat-extend">chevron_left</mat-icon>
+    </span></a>
+  <a href="javascript:void(0);" (click)="this.scrollContext.next()" *ngIf="(this.scrollContext.hasNext | async)" class="k-scrollview-next"><span>
+      <mat-icon class="fadeInRight animated-k-scrollview-button k-mat-extend">chevron_right</mat-icon>
+    </span></a>
+</nav>

@@ -1,0 +1,22 @@
+.container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 60px;
+  margin: auto;
+  border: 1px solid #555;
+}
+
+.drawer {
+  width: 200px;
+  background-color: #ccc;
+}
+
+.content {
+  overflow-x: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

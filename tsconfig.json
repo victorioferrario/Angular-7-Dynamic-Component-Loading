@@ -16,6 +16,26 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@manx": [
+        "projects/manx/src/lib"
+      ],
+      "@manx/*": [
+        "projects/manx/src/lib/*"
+      ],
+      "@manx-services": [
+        "projects/manx-services/src/lib"
+      ],
+      "@manx-services/*": [
+        "projects/manx-services/src/lib/*"
+      ]
+      // "@manx": [
+      //   "dist/manx"
+      // ],
+      // "@manx/*": [
+      //   "dist/manx/*"
+      // ]
+    }
   }
 }

@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  width: 80%;
+  padding-top: 5%;
+  margin: auto;
+  // padding: 1.2rem;
+  border: solid 0 #000;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.k-widget {
+  border: solid 5px rgb(38, 47, 78);
+  border-radius: 7px;
+  display: block;
+  margin: auto;
+  background: rgb(38, 47, 78);
+}
+
+.k-scrollview-wrap {
+  position: absolute;
+  overflow: hidden;
+  outline: 0;
+  display: block;
+  margin: 0 auto;
+  z-index: 1111;
+  top: 0;
+}

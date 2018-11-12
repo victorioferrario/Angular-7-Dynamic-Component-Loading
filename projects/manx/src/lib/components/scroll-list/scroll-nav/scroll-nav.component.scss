@@ -1,0 +1,63 @@
+.k-scrollview-elements {
+  width: 100%;
+  z-index: 10000;
+}
+
+.k-scrollview-next,
+.k-scrollview-prev {
+  color: #fff;
+  background: rgba(0, 0, 0, .3);
+  text-shadow: rgba(0, 0, 0, .3) 0 0 15px;
+  opacity: .7;
+  outline-width: 0;
+}
+
+.k-scrollview-next,
+.k-scrollview-prev {
+  display: table;
+  position: absolute;
+  padding: 0;
+  height: 60%;
+  top: 20%;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+.k-scrollview-prev {
+  left: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.k-scrollview-next {
+  right: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.k-scrollview-next span,
+.k-scrollview-prev span {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 4.5em;
+  font-weight: 400;
+}
+
+.k-mat-extend {
+  font-size: 48px;
+  min-height: 48px;
+  min-width: 48px;
+
+  display: block;
+
+}
